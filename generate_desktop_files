@@ -1,0 +1,49 @@
+#!/usr/bin/python3
+
+DOMAIN = "maunawelcome"
+PATH = "/usr/share/mauna/locale"
+
+import os
+import gettext
+from maunacommon import additionalfiles
+
+os.environ['LANGUAGE'] = "en_US.UTF-8"
+gettext.install(DOMAIN, PATH)
+
+prefix = """[Desktop Entry]
+Exec=maunawelcome
+Icon=maunawelcome
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=GNOME;GTK;Settings;DesktopSettings;
+NotShowIn=KDE;
+StartupNotify=false
+"""
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/maunawelcome.desktop", prefix, _("Welcome Screen"), _("Introduction to Mauna Linux"), "")
+
+prefix = """[Desktop Entry]
+Exec=maunawelcome
+Icon=maunawelcome
+Terminal=false
+Type=Application
+Encoding=UTF-8
+OnlyShowIn=KDE;
+Categories=System;
+StartupNotify=false
+"""
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/kde4/maunawelcome.desktop", prefix, _("Welcome Screen"), _("Introduction to Mauna Linux Mint"), "", genericName=_("Welcome Screen"))
+
+prefix = """[Desktop Entry]
+Exec=apturl apt://mauna-meta-codecs?refresh=yes
+Icon=applications-multimedia
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Application;AudioVideo;Audio;
+StartupNotify=false
+"""
+
+additionalfiles.generate(DOMAIN, PATH, "mauna-meta-codecs.desktop", prefix, _("Install Multimedia Codecs"), _("Add all the missing multimedia codecs"), "")

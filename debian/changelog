@@ -1,0 +1,681 @@
+maunawelcome (2.5.9) mauna; urgency=medium
+
+  * New upstream release for Mauna Linux
+
+ -- Mauna Linux <dev@maunalinux.org>  Tue, 15 Aug 2023 10:35:56 -0300
+
+mintwelcome (2.5.8) victoria; urgency=medium
+
+  [ Ricardo Fernández Serrata ]
+  * convert /usr/bin/mintwelcome to POSIX-sh
+
+  [ Clement Lefebvre ]
+  * Colors: Rearrange colors
+  * Remove refs to dark Mint-Y icon themes
+  * Remove Cinnamon layout selection
+  * Colors: Remove brown
+  * Remove color section
+
+  [ UserRoot-Luca ]
+  * Updated image to latest Welcome page (Linux mint 21.1) (#61)
+
+  [ Clement Lefebvre ]
+  * l10n: Update POT
+  * l10n: Generate files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 05 Jun 2023 13:38:20 +0100
+
+mintwelcome (2.5.7) vera; urgency=medium
+
+  * panel layout: Remove pictures
+  * panel_layout: Switch modern/traditional
+  * Add a button on the main page to show the first steps
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 28 Nov 2022 10:57:50 +0000
+
+mintwelcome (2.5.6) vera; urgency=medium
+
+  * Update colors
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 22 Nov 2022 15:08:35 +0000
+
+mintwelcome (2.5.5) vera; urgency=medium
+
+  [ Clement Lefebvre ]
+  * cinnamon layouts: Replace show-desktop with cornerbar
+
+  [ hdulme ]
+  * remove unused import cairo
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 21 Nov 2022 13:15:36 +0000
+
+mintwelcome (2.5.4) vanessa; urgency=medium
+
+  * Run mintdrivers without admin rights
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 19 Sep 2022 09:36:05 +0100
+
+mintwelcome (2.5.3) una; urgency=medium
+
+  * Don't change themes without user interaction
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 10 Jan 2022 16:56:49 +0000
+
+mintwelcome (2.5.2) una; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Remove obsolete reference to metacity mint-y-dark theme
+
+  [ hammy3502 ]
+  * Detect theme color and dark variant (#50)
+
+  [ Clement Lefebvre ]
+  * l10n: Generate files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 17 Dec 2021 12:31:21 +0000
+
+mintwelcome (2.5.1) uma; urgency=medium
+
+  [ NikoKrause ]
+  * Add favorites applet to Cinnamon legacy layout (#45)
+
+  [ Lurux ]
+  * Update panel screenshots in layout selector - The screenshots for the "traditional" layout was still showcasing the old Mint-X theme despite the fact that both layouts now default to the Mint-Y theme, so I updated them accordingly. - The icons in the HiDPI screenshot of the "modern" layout were misaligned, so I also decided to redo these with the same panel arrangement.
+
+  [ Shadofer ]
+  * Remove add_codecs and pkg variables and provide a shorter way to determine whether or not media codecs should be installed. (#48)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 26 May 2021 12:44:38 +0100
+
+mintwelcome (2.5.0) ulyssa; urgency=medium
+
+  * Revert "Run mintdrivers without admin rights"
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 10 Dec 2020 11:30:02 +0000
+
+mintwelcome (2.4.9) ulyssa; urgency=medium
+
+  * Add favorites applet to Cinnamon modern layout
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 08 Dec 2020 13:05:48 +0000
+
+mintwelcome (2.4.8) ulyssa; urgency=medium
+
+  * Run mintdrivers without admin rights
+  * l10n: Generate files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 30 Nov 2020 15:27:28 +0000
+
+mintwelcome (2.4.7) ulyana; urgency=medium
+
+  * Fix icons in Mint 20
+  * Cinnamon: Bring back panel layout selection
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 18 Jun 2020 12:29:36 +0100
+
+mintwelcome (2.4.6) ulyana; urgency=medium
+
+  * Fix brown and green pictures
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 06 Jun 2020 12:16:07 +0100
+
+mintwelcome (2.4.5) ulyana; urgency=medium
+
+  * Go back to original colors
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 06 Jun 2020 12:03:31 +0100
+
+mintwelcome (2.4.4) ulyana; urgency=medium
+
+  * Colors: Add HiDPI support
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 24 Apr 2020 15:17:15 +0100
+
+mintwelcome (2.4.3) ulyana; urgency=medium
+
+  [ Nikolay Nechaev ]
+  * New mint logo in Welcome tab
+
+  [ Clement Lefebvre ]
+  * Switch icon to filled ring
+  * First steps: Replace layout switcher with color chooser
+  * l10n: Update POT
+  * l10n: Generate desktop files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 24 Apr 2020 14:45:17 +0100
+
+mintwelcome (2.4.2) tricia; urgency=medium
+
+  [ Vincent Vermeulen ]
+  * allow for window controls on the left
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 15 Jan 2020 14:35:05 +0000
+
+mintwelcome (2.4.1) tricia; urgency=medium
+
+  * l10n: Fix msgid
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 05 Dec 2019 16:12:16 +0000
+
+mintwelcome (2.4.0) tricia; urgency=medium
+
+  * Update app icon
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 19 Nov 2019 10:44:06 +0000
+
+mintwelcome (2.3.9) tricia; urgency=medium
+
+  * Update cinnamon panel layouts
+  * Update logo
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 13 Nov 2019 11:46:32 +0100
+
+mintwelcome (2.3.8) tina; urgency=medium
+
+  * Fix generate_desktop_files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 30 Jun 2019 15:41:54 +0200
+
+mintwelcome (2.3.7) tessa; urgency=medium
+
+  * Desktop layouts: Remove user applet in modern layout
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 17 Dec 2018 09:54:38 +0000
+
+mintwelcome (2.3.6) tessa; urgency=medium
+
+  [ Michael Webster ]
+  * mintwelcome.py: Use surfaces to set the layout button images.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 06 Dec 2018 13:30:52 +0000
+
+mintwelcome (2.3.5) tessa; urgency=medium
+
+  * Load the non-Hidpi pics no matter what
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 30 Nov 2018 14:47:02 +0000
+
+mintwelcome (2.3.4) tessa; urgency=medium
+
+  [ Isaac Carter ]
+  * mintwelcome: Added Firewall Configuration to the Welcome app. (#36)
+
+  [ Clement Lefebvre ]
+  * Update some msgids
+  * Add the ability to choose a Cinnamon desktop layout
+  * l10n: Update POT
+  * Cinnamon layout: Set the menu label
+  * Panel layout: Add a little warning that customizations will be lost
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 28 Nov 2018 11:31:49 +0000
+
+mintwelcome (2.3.3) tara; urgency=medium
+
+  * Remove "new features" section in LMDE
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 05 Aug 2018 10:35:49 +0200
+
+mintwelcome (2.3.2) tara; urgency=medium
+
+  * First steps: Don't show mintdrivers button if mintdrivers isn't installed
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 12 Jul 2018 12:03:33 +0200
+
+mintwelcome (2.3.1) tara; urgency=medium
+
+  [ NikoKrause ]
+  * Translate Title "Welcome" (#34)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 30 May 2018 18:04:46 +0100
+
+mintwelcome (2.3.0) tara; urgency=medium
+
+  [ Butterfly ]
+  *  Fix getting translations 2 (#33)
+
+  [ Clement Lefebvre ]
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 22 May 2018 13:21:53 +0100
+
+mintwelcome (2.2.9) tara; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Generate files and remove obsolete files
+
+  [ Butterfly ]
+  * Fix getting translations (#32)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 21 May 2018 12:46:05 +0100
+
+mintwelcome (2.2.8) tara; urgency=medium
+
+  * Fix icon in autostart file
+  * Finish implementation of the UI revamp
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 18 May 2018 16:12:05 +0100
+
+mintwelcome (2.2.7) tara; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Simplify the codecs installation
+
+  [ JosephMcc ]
+  * Start of very rough UI restyling
+  * Forgot to git add some new files
+
+  [ Clement Lefebvre ]
+  * Fine-tuned the layout
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 07 May 2018 13:20:04 +0100
+
+mintwelcome (2.2.6) sylvia; urgency=medium
+
+  * Fix app icon aspect ratio
+  * HiDPI: Switch to SVG icons
+  * HiDPI: Fix main logo being blurry
+  * l10n: Generate desktop files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 04 Nov 2017 11:34:14 +0000
+
+mintwelcome (2.2.5) sonya; urgency=medium
+
+  * Don't launch mintwelcome in guest sessions
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 09 Jun 2017 15:59:57 +0100
+
+mintwelcome (2.2.4) sonya; urgency=medium
+
+  * l10n: Generate desktop files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 07 May 2017 12:18:31 +0100
+
+mintwelcome (2.2.3) sonya; urgency=medium
+
+  [ Dan Dascalescu ]
+  * Create README.md
+
+  [ theel0ja ]
+  * Use GTK themes instead of hardcoded
+  * Themes starting Mint-X are using old theme
+  * Fix chmod
+
+  [ Clement Lefebvre ]
+  * Provide a hicolor icon
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 01 May 2017 19:33:39 +0100
+
+mintwelcome (2.2.2) sarah; urgency=medium
+
+  * KDE: Revert to green logo in menu
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 14 Aug 2016 12:32:16 +0200
+
+mintwelcome (2.2.1) sarah; urgency=medium
+
+  * KDE: Revert to default logo
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 14 Aug 2016 11:08:37 +0200
+
+mintwelcome (2.2.0) sarah; urgency=medium
+
+  * Adapt to new codecs packages and the fact that all editions now come without them
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 05 May 2016 11:31:06 +0100
+
+mintwelcome (2.1.9) sarah; urgency=medium
+
+  [ Daniel Alley ]
+  * Formatting + changed folder structure from camelCase to lowercase
+
+  [ Clement Lefebvre ]
+  * Made icon themeable and updated generated files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 22 Apr 2016 10:32:51 +0100
+
+mintwelcome (2.1.8) sarah; urgency=medium
+
+  [ Daniel Alley ]
+  * removed dh_python from build
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 19 Feb 2016 12:01:04 +0000
+
+mintwelcome (2.1.7) sarah; urgency=medium
+
+  [ Daniel Alley ]
+  * complete conversion to Python 3
+  * updated debian/control file
+
+  [ Clement Lefebvre ]
+  * Don't use ConfigObj
+  * Clean up HOME and run_flag paths
+  * Moved icons to /usr/share
+  * Updated desktop files
+  * Don't override the color of the checkbutton in the statusbar
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 20 Jan 2016 15:04:39 +0000
+
+mintwelcome (2.1.6) rosa; urgency=medium
+
+  * LMDE: Replace mintdrivers link with release notes
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 11 Dec 2015 11:56:56 +0000
+
+mintwelcome (2.1.5) rosa; urgency=medium
+
+  * Removed Webkit import
+  * Switch user guide back to online version (until mintdoc is finalized and localized)
+  * Refreshed mintwelcome UI
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 12 Nov 2015 15:23:33 +0000
+
+mintwelcome (2.1.4) rosa; urgency=medium
+
+  [ Kálmán Szalai - KAMI ]
+  * Add link to mintdrivers in mintWelcome application as described in Roadmap
+
+  [ Clement Lefebvre ]
+  * Updated desktop files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 06 Nov 2015 17:06:18 +0000
+
+mintwelcome (2.1.3) rafaela; urgency=medium
+
+  * Don't use a statusbar (Xfwm randomly decides to draw a border around it..)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 07 Jul 2015 12:36:19 +0200
+
+mintwelcome (2.1.2) betsy; urgency=medium
+
+  * Properly detect codecs in LMDE
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 05 Jun 2015 15:37:46 +0200
+
+mintwelcome (2.1.1) betsy; urgency=medium
+
+  * Added LMDE detection
+  * Removed trailing white spaces
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 02 Feb 2015 14:05:54 +0100
+
+mintwelcome (2.1.0) rebecca; urgency=medium
+
+  * Use xdg-open to open the IRC channel
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 17 Oct 2014 10:29:51 +0200
+
+mintwelcome (2.0.9) rebecca; urgency=medium
+
+  * Changed user guide text and icon (integrated in yelp now)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 15 Sep 2014 14:45:28 +0200
+
+mintwelcome (2.0.8) qiana; urgency=medium
+
+  * Fixed DE detection in MATE (info changed in Qiana)
+  * Fixed the installation of codecs (an unused variable was left
+    after the refactoring)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 04 Jun 2014 10:19:25 +0100
+
+mintwelcome (2.0.7) qiana; urgency=medium
+
+  * Restored mint-meta-codecs support
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Jun 2014 12:03:10 +0100
+
+mintwelcome (2.0.6) qiana; urgency=medium
+
+  * Updated desktop files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 04 May 2014 15:13:57 +0100
+
+mintwelcome (2.0.5) qiana; urgency=medium
+
+  * UI changes
+  * Added restore_data
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 08 Apr 2014 10:39:55 +0100
+
+mintwelcome (2.0.4) qiana; urgency=medium
+
+  * Size adjustments
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 07 Apr 2014 23:02:56 +0100
+
+mintwelcome (2.0.3) qiana; urgency=medium
+
+  * Added OnlyShowIn=KDE to KDE desktop file
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 07 Apr 2014 15:50:29 +0100
+
+mintwelcome (2.0.2) qiana; urgency=medium
+
+  * Added a space for MATE compatibility
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 04 Apr 2014 11:38:33 +0100
+
+mintwelcome (2.0.1) qiana; urgency=medium
+
+  * UI improvements
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 04 Apr 2014 11:22:47 +0100
+
+mintwelcome (2.0.0) qiana; urgency=medium
+
+  * Complete re-design
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 03 Apr 2014 15:42:30 +0100
+
+mintwelcome (1.4.11) petra; urgency=low
+
+  * Add KDE desktop file
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Fri, 08 Nov 2013 10:54:27 +0100
+
+mintwelcome (1.4.10) petra; urgency=low
+
+  * Fix desktop file
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Fri, 08 Nov 2013 10:13:18 +0100
+
+mintwelcome (1.4.9) petra; urgency=low
+
+  * Added margin on the right of the logo
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 31 Oct 2013 10:49:21 +0000
+
+mintwelcome (1.4.8) petra; urgency=low
+
+  * Update apt api call "pkg.is_installed()"
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 24 Oct 2013 11:02:19 +0100
+
+mintwelcome (1.4.7) olivia; urgency=low
+
+  * 1.4.7
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 06 May 2013 13:16:55 +0100
+
+mintwelcome (1.4.6) maya; urgency=low
+
+  * Changed type hint to dock (KDE compatibility)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 20 Jun 2012 09:54:05 +0100
+
+mintwelcome (1.4.5) maya; urgency=low
+
+  * Use casper/live instead of ubiquity/live-installer to detect live session
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 15 Jun 2012 10:24:06 +0100
+
+mintwelcome (1.4.4) lisa; urgency=low
+
+  * version conflict with Isadora, increasing the version artificially from 1.4.3 to 1.4.4
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 03 Feb 2012 18:25:35 +0000
+
+mintwelcome (1.4.3) lisa; urgency=low
+
+  * Removed onlyShowIn clause in XDG autostart
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 03 Feb 2012 18:16:24 +0000
+
+mintwelcome (1.4.2) lisa; urgency=low
+
+  * Changed apturl dep to apturl | apturl-kde
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 09 Jan 2012 10:24:17 +0000
+
+mintwelcome (1.4.1) katya; urgency=low
+
+  * Use refresh option in calls to apturl
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed,  18 May 2011 11:49:00 +0000
+
+mintwelcome (1.4.0) katya; urgency=low
+
+  * Generate desktop files for mint-meta-codecs and mint-meta-gnome-dvd
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu,  5 May 2011 13:18:00 +0000
+
+mintwelcome (1.3.9) katya; urgency=low
+
+  * Menu item added in preferences
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu,  5 May 2011 12:35:00 +0000
+
+mintwelcome (1.3.8) julia; urgency=low
+
+  * Labels can't wrap
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon,  11 Oct 2010 16:31:00 +0000
+
+mintwelcome (1.3.7) julia; urgency=low
+
+  * A bit wider to accomodate longer sentences in latin languages
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon,  11 Oct 2010 15:22:00 +0000
+
+mintwelcome (1.3.6) julia; urgency=low
+
+  * Remove extra options for Debian
+  * Refer to new mint-meta-gnome-dvd
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon,  11 Oct 2010 11:51:00 +0000
+
+mintwelcome (1.3.5) julia; urgency=low
+
+  * UI Improvements
+  * Detection of missing codecs/DVD pack
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu,  30 Sep 2010 10:55:00 +0000
+
+mintwelcome (1.3.4) isadora; urgency=low
+
+  * Added flag for live-installer in launcher
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri,  30 Jul 2010 12:20:00 +0000
+
+mintwelcome (1.3.3) isadora; urgency=low
+
+  * Fixed typo in getinvolved.php
+  * Fixed launcher 
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon,  10 May 2010 10:06:00 +0000
+
+mintwelcome (1.3.2) isadora; urgency=low
+
+  * Bigger background
+  * Slightly higher frame
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri,  30 Apr 2010 13:49:00 +0000
+
+mintwelcome (1.3.1) isadora; urgency=low
+
+  * Changed wording
+  * Added logo
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed,  28 Apr 2010 12:14:00 +0000
+
+mintwelcome (1.3.0) isadora; urgency=low
+
+  * Beautified the welcome screen
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed,  28 Apr 2010 12:14:00 +0000
+
+mintwelcome (1.2.9) helena; urgency=low
+
+  * Added quassel to the list of IRC clients
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu,  14 Jan 2009 10:39:00 +0000
+
+mintwelcome (1.2.8) helena; urgency=low
+
+  * Changed translation framework
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue,  3 Nov 2009 12:06:00 +0000
+
+mintwelcome (1.2.7) helena; urgency=low
+
+  * Window now "always center"s itself
+  * Replaced welcome label with textview for a better layout. 
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat,  31 Oct 2009 14:28:00 +0000
+
+mintwelcome (1.2.6) helena; urgency=low
+
+  * Changed liveCD detection from os-prober to ubiquity
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri,  30 Oct 2009 14:41:00 +0000
+
+mintwelcome (1.2.5) helena; urgency=low
+
+  * Dependency on mint-common
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu,  8 Oct 2009 14:57:00 +0000
+
+mintwelcome (1.2.4) helena; urgency=low
+
+  * Blueprint implemented: https://blueprints.launchpad.net/linuxmint/+spec/mintwelcome-too-big
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue,  28 Jul 2009 02:04:00 +0000
+
+mintwelcome (1.2.3) gloria; urgency=low
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue,  19 May 2009 18:09:00 +0000
+
+mintwelcome (1.2.2) gloria; urgency=low
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun,  17 May 2009 17:49:00 +0000
+
+mintwelcome (1.2.1) gloria; urgency=low
+
+  * Added translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun,  17 May 2009 17:07:00 +0000
+
+mintwelcome (1.2) gloria; urgency=low
+
+  * Conflicts/Replaces mintassistant, mintassistant-gnome, mintassistant-kde
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed,  29 Apr 2009 10:28:00 +0000
+
+mintwelcome (1.1) gloria; urgency=low
+
+  * Doesn't run if os-prober is install (liveCD mode)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed,  22 Apr 2009 22:11:00 +0000
+
+mintwelcome (1.0) gloria; urgency=low
+
+  * Initial release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue,  21 Apr 2009 20:11:00 +0000
+

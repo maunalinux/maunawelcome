@@ -1,0 +1,19 @@
+Source: maunawelcome
+Section: admin
+Priority: optional
+Maintainer: Mauna Linux <dev@maunalinux.top>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: maunawelcome
+Architecture: all
+Depends: python3 (>= 3.3),
+         python3-gi,
+         python3-xapp (>= 1.0.1),
+         amarok-info,
+         mauna-common,
+         ${misc:Depends},
+Conflicts: mintassistant, mintassistant-gnome, mintassistant-kde
+Replaces: mintassistant, mintassistant-gnome, mintassistant-kde
+Description: Welcome screen for Mauna Linux
+ Shows important information about the release/edition of Mauna Linux.

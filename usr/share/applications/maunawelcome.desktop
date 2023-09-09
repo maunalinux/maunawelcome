@@ -1,0 +1,15 @@
+[Desktop Entry]
+Exec=maunawelcome
+Icon=maunawelcome
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=GNOME;GTK;Settings;DesktopSettings;
+NotShowIn=KDE;
+StartupNotify=false
+Name=Welcome Screen
+Name[pt]=Ecrã de boas vindas
+Name[pt_BR]=Tela de Boas-Vindas
+Comment=Introduction to Mauna Linux
+Comment[pt]=Introdução ao Mauna Linux
+Comment[pt_BR]=Apresentando o Mauna Linux

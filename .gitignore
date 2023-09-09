@@ -1,0 +1,6 @@
+debian/.debhelper/
+debian/maunawelcome/
+debian/*.substvars
+debian/*.log
+debian/files
+debian/debhelper-build-stamp

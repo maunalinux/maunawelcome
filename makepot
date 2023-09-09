@@ -1,0 +1,5 @@
+#!/bin/bash
+
+intltool-extract --type=gettext/glade usr/share/mauna/maunawelcome/maunawelcome.ui
+xgettext --language=Python --keyword=_ --keyword=N_ --output=maunawelcome.pot usr/lib/mauna/maunawelcome/maunawelcome.py generate_desktop_files usr/share/mauna/maunawelcome/maunawelcome.ui.h
+rm -f usr/share/mauna/maunawelcome/maunawelcome.ui.h
