@@ -6,16 +6,16 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-05 13:36+0100\n"
+"POT-Creation-Date: 2023-10-17 18:34-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
 
 #: usr/lib/mauna/maunawelcome/maunawelcome.py:121
 #: usr/share/mauna/maunawelcome/maunawelcome.ui.h:1
@@ -74,8 +74,8 @@ msgstr ""
 #: usr/share/mauna/maunawelcome/maunawelcome.ui.h:6
 msgid ""
 "The Mauna Linux documentation consists of a collection of guides, available "
-"in PDF, ePUB and HTML and available in many languages. Click the button "
-"below to see which guides are available."
+"in PDF, ePUB and HTML and available in many languages. Click the button below "
+"to see which guides are available."
 msgstr ""
 
 #: usr/share/mauna/maunawelcome/maunawelcome.ui.h:7
@@ -115,8 +115,8 @@ msgstr ""
 #: usr/share/mauna/maunawelcome/maunawelcome.ui.h:14
 msgid ""
 "Next, let's set automatic system snapshots. A minimum of two daily and two "
-"boot snapshots are recommended. If anything breaks, you can then restore "
-"your computer to its previous working state."
+"boot snapshots are recommended. If anything breaks, you can then restore your "
+"computer to its previous working state."
 msgstr ""
 
 #: usr/share/mauna/maunawelcome/maunawelcome.ui.h:15
@@ -137,9 +137,8 @@ msgstr ""
 
 #: usr/share/mauna/maunawelcome/maunawelcome.ui.h:18
 msgid ""
-"Additional multimedia codecs are required to support some formats and to "
-"play popular audio, video and web content. Click the button below to install "
-"them."
+"Additional multimedia codecs are required to support some formats and to play "
+"popular audio, video and web content. Click the button below to install them."
 msgstr ""
 
 #: usr/share/mauna/maunawelcome/maunawelcome.ui.h:19
@@ -188,7 +187,7 @@ msgstr ""
 
 #: usr/share/mauna/maunawelcome/maunawelcome.ui.h:28
 msgid ""
-"The Amarok Linux forums are the best place to find help. Join thousands of "
+"The Mauna Linux forums are the best place to find help. Join thousands of "
 "users, search topics and threads and find solutions to your problems."
 msgstr ""
 
