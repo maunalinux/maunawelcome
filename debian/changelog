@@ -1,3 +1,10 @@
+maunawelcome (2.6.0) mauna; urgency=medium
+
+  * New upstream release
+  * l10n: update POT and new translations on maunawelcome.desktop
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 18 Oct 2023 18:49:57 -0300
+
 maunawelcome (2.5.9) mauna; urgency=medium
 
   * New upstream release for Mauna Linux
