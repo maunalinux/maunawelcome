@@ -45,7 +45,7 @@ class MaunaWelcome():
         window.set_position(Gtk.WindowPosition.CENTER)
         window.connect("destroy", Gtk.main_quit)
 
-        with open("/etc/amarok/info") as f:
+        with open("/etc/mauna/info") as f:
             config = dict([line.strip().split("=") for line in f])
         codename = config['CODENAME'].capitalize()
         edition = config['EDITION'].replace('"', '')
@@ -75,7 +75,7 @@ class MaunaWelcome():
         # Action buttons
         builder.get_object("button_forums").connect("clicked", self.visit, "https://forum.maunalinux.top")
         builder.get_object("button_contribute").connect("clicked", self.visit, "https://maunalinux.top/donate")
-        builder.get_object("button_update").connect("clicked", self.launch, "gpk-update-viewer")
+        builder.get_object("button_update").connect("clicked", self.launch, "mauna-update")
         builder.get_object("button_software").connect("clicked", self.launch, "maunainstall")
         builder.get_object("button_timeshift").connect("clicked", self.pkexec, "timeshift-gtk")
         builder.get_object("button_gufw").connect("clicked", self.launch, "gufw")
