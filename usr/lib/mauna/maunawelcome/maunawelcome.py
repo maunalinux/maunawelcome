@@ -41,7 +41,7 @@ class MaunaWelcome():
         builder.add_from_file('/usr/share/mauna/maunawelcome/maunawelcome.ui')
 
         window = builder.get_object("main_window")
-        window.set_icon_name("mauawelcome")
+        window.set_icon_name("maunawelcome")
         window.set_position(Gtk.WindowPosition.CENTER)
         window.connect("destroy", Gtk.main_quit)
 

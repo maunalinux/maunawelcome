@@ -34,7 +34,7 @@ Categories=System;
 StartupNotify=false
 """
 
-additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/kde4/maunawelcome.desktop", prefix, _("Welcome Screen"), _("Introduction to Mauna Linux Mint"), "", genericName=_("Welcome Screen"))
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/kde4/maunawelcome.desktop", prefix, _("Welcome Screen"), _("Introduction to Mauna Linux"), "", genericName=_("Welcome Screen"))
 
 prefix = """[Desktop Entry]
 Exec=apturl apt://mauna-meta-codecs?refresh=yes
