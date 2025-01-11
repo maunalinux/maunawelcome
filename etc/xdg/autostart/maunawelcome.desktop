@@ -5,6 +5,7 @@ Comment=Mauna Linux Welcome Screen
 Icon=maunawelcome
 Exec=maunawelcome-launcher
 Terminal=false
+NoDisplay=true
 Type=Application
 Categories=
 
