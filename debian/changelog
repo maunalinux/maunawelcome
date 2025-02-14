@@ -1,3 +1,10 @@
+maunawelcome (2.6.2) mauna; urgency=medium
+
+  * Don't display the autostart desktop entry in Startup Applications
+  * Sort import, remove unused gio for better readability
+
+ -- Mauna Linux <dev@maunalinux.top>  Sat, 11 Jan 2025 16:31:01 -0300
+
 maunawelcome (2.6.1) mauna; urgency=medium
 
   * New upstream version
